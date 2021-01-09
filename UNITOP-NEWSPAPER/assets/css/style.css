@@ -1,0 +1,316 @@
+    body {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    .container {
+        width: 1170px;
+        padding: 0px 15px;
+        margin: 0px auto;
+        display: flex;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0px;
+    }
+    /* ==============header============= */
+    
+    #header {
+        background-color: #23282d;
+        padding: 27px 0px 10px 0px;
+        margin-bottom: 35px;
+    }
+    
+    form#search {
+        position: relative;
+    }
+    
+    form#search input {
+        background-color: #131619;
+        width: 248px;
+        border: none;
+        outline: none;
+        padding: 9px 42px 9px 15px;
+        color: #909090;
+    }
+    
+    form#search button {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background: none;
+        border: none;
+        padding: 9px 12px;
+        color: #a2a1a1;
+    }
+    
+    form#search ::placeholder {
+        color: #909090;
+    }
+    
+    nav {
+        padding-top: 7px;
+        flex: 100%;
+        /* border-right: 10px solid #ff2d2d; */
+        position: relative;
+    }
+    
+    ul#main-menu li a {
+        display: block;
+        padding: 6px 20px;
+        color: #e4e5e5;
+    }
+    
+    ul#main-menu li:first-child a {
+        padding-left: 0px;
+    }
+    
+    ul#main-menu li:hover a {
+        /* ul#main-menu li.active a  */
+        color: #4db2ec;
+        text-decoration: none;
+    }
+    
+    .end-menu {
+        position: absolute;
+        right: 0px;
+    }
+    /* =============featured post=========== */
+    
+    #wp-featured-post {
+        margin-bottom: 20px;
+    }
+    
+    .box .box-head h3 {
+        display: inline-block;
+        color: #eeee;
+        background-color: #23282d;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 1px 7px 1px 14px;
+    }
+    
+    .box .box-body {
+        padding-top: 20px;
+    }
+    
+    .featured-post .box-body {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #dadada;
+    }
+    
+    ul.list-featured-post li {
+        flex: 360px 0 1;
+    }
+    
+    ul.list-featured-post li .post-thumb {
+        display: block;
+        overflow: hidden;
+    }
+    
+    ul.list-featured-post li .post-thumb img {
+        transition: all 0.5s;
+    }
+    
+    ul.list-featured-post li .post-thumb:hover img {
+        transform: scale(1.05);
+    }
+    
+    ul.list-featured-post li a.post-title {
+        color: #5f5f55;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 20px;
+        display: block;
+        text-decoration: none;
+    }
+    /* ============WP-CONTENT============= */
+    
+    #content {
+        flex: 765px;
+        padding-right: 15px;
+    }
+    
+    #sidebar {
+        flex: 375px;
+        padding-left: 15px;
+    }
+    
+    .box.new-post .box-head {
+        border-bottom: 2px solid #4db2ec;
+    }
+    
+    .box.new-post .box-head h3 {
+        background: #4db2ec;
+        padding: 4px 15px 3px 13px;
+    }
+    
+    .box.new-post .box-body {
+        padding-top: 30px;
+    }
+    
+    ul.list-post li {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    
+    ul.list-post li .post-thumb {
+        display: block;
+        flex: 280px;
+        padding-right: 15px;
+    }
+    
+    ul.list-post li .more-info {
+        flex: 470px;
+        padding-left: 15px;
+    }
+    
+    ul.list-post li .more-info .post-title {
+        font-size: 21px;
+        display: block;
+        color: #111111;
+        font-weight: 600;
+    }
+    
+    ul.list-post li:hover .more-info a.post-title {
+        color: #4db2ec;
+    }
+    
+    ul.list-post li .more-info .post-published {
+        font-size: 11px;
+        font-weight: 600;
+        padding: 6px 0px;
+    }
+    
+    ul.list-post li .more-info .post-author {
+        color: #111111;
+    }
+    
+    ul.list-post li .more-info .post-date {
+        color: #aaaaaa;
+    }
+    
+    ul.list-post li .more-info .post-excerpt {
+        font-size: 13px;
+        color: #777777;
+    }
+    /* end content  */
+    
+    #sidebar a.ads {
+        display: block;
+        margin-bottom: 40px;
+    }
+    
+    .box.top-topic .box-head {
+        border-bottom: 1px solid #ff2d2d;
+    }
+    
+    .box.top-topic .box-head h3 {
+        background: #ff2d2d;
+        padding: 3px 15px 3px 12px;
+    }
+    
+    .box.top-topic .box-body ul.list-topic li a {
+        display: block;
+        color: #212121;
+        font-size: 16px;
+        position: relative;
+        padding: 6px 0px;
+    }
+    
+    .box.top-topic .box-body ul.list-topic li:hover a {
+        color: #ff8a8a;
+    }
+    
+    .box.top-topic .box-body li .num-post {
+        position: absolute;
+        right: 25px;
+    }
+    /* ----------end sidebar---------- */
+    
+    #footer {
+        background-color: #2e2f30;
+        padding: 53px 0px 75px;
+        margin-top: 35px;
+        color: #f6f6f6;
+    }
+    
+    #footer .box .box-head h3 {
+        background: none;
+        padding: 0;
+        font-size: 18px;
+    }
+    
+    #footer .box.logo-footer .box-head h3 {
+        visibility: hidden;
+    }
+    
+    #footer .box .box-body {
+        padding-top: 40px;
+        font-size: 14px;
+    }
+    
+    #footer .box.logo-footer {
+        flex: 280px;
+        padding-right: 15px;
+    }
+    
+    #footer .box.about-us {
+        flex: 680px;
+        padding-left: 15px;
+    }
+    
+    #footer .box.about-us a {
+        color: #4db2ec;
+    }
+    
+    #footer .box.follow-us {
+        flex: 180px;
+        padding-left: 15px;
+    }
+    
+    ul.list-social li {
+        margin-left: 10px;
+    }
+    
+    ul.list-social li:first-child {
+        margin: 0;
+    }
+    
+    ul.list-social li a {
+        background: #434648;
+        color: #eeee;
+        padding: 5px 12px;
+        display: block;
+    }
+    
+    ul.list-social li:hover a {
+        color: #4db2ec;
+    }
+    /* end footer */
+    /* =================COPYRIGHT============= */
+    
+    #wp-copyright {
+        background: #222527;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 13px 0 13px;
+    }
+    
+    ul#footer-menu li a {
+        padding: 0px 13px;
+        color: #f3f3f3;
+        display: block;
+    }
+    
+    ul#footer-menu li:hover a {
+        color: #4db2ec;
+    }
+    
+    ul#footer-menu li:last-child a {
+        padding-right: 0;
+    }
